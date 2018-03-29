@@ -1,0 +1,15 @@
+.loginform {
+    margin: auto;
+    float: none;
+    text-align: center;
+}
+
+.logo img {
+    width: 200px;
+    margin: auto;
+}
+.alert-success {
+    color: #fff;
+    background-color: #3081C0;
+    border-color: #d6e9c6;
+}

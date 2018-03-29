@@ -1,0 +1,10 @@
+.main-panel{
+	color: #1e1e1e;
+	background-color: #fff;
+	width: 80%;
+	left: 20%;
+	position: fixed;
+}
+.content{
+	padding: 10px;
+}

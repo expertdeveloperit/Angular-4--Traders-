@@ -1,0 +1,21 @@
+.head{
+	background-color: #1e1e1e;
+	color: #fff;
+}
+.btn-transparent{
+	background-color: transparent;
+}
+.btn-transparent:hover{
+	color: #fff;
+	
+}
+.logo{
+	padding: 5px;
+}
+.togglebtn{
+	margin-top: 15px;
+}
+.lgbtn{
+	margin-top: 20px;
+	padding: 5px;
+}

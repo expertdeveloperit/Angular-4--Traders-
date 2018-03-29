@@ -1,0 +1,18 @@
+.sidenav{
+	 background-color: #c5e74e ;
+     color: #1e1e1e;
+    position: fixed;
+    top:84px;
+    left: 0;
+    width: 20%;
+    min-height:600px;
+    padding: 20px 10px;
+}
+.sidenav a {
+    color: #1e1e1e;
+    text-decoration: none;
+}
+li{
+    list-style-type:  none;
+    padding-top: 10px;
+}

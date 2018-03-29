@@ -1,0 +1,18 @@
+<div>
+	<div class="alert alert-success" *ngIf="erroStatus">
+		<p>{{errMsg}}</p>
+	</div>
+	<form #loginForm = "ngForm" (ngSubmit)="login(loginForm.value);loginForm.reset()" ngNativeValidate>
+		<div class="form-group">
+			<input type="email" name="email" class="form-control" placeholder="Enter your email"  required ngModel>
+		</div>
+		<div class="form-group">
+			<input type="password" name="password" class="form-control" placeholder="Enter your password" required ngModel>
+		</div>
+		<button type="submit" class="btn form-control btn-default btnSubmit">Submit</button>
+	  <div class="forgottext">	
+		<p routerLink='../forgotPassowrd/'>Forgotten your password?</p>
+		<p routerLink = '../signup/'>Create a new account</p>
+	  </div>	
+	</form>
+</div>

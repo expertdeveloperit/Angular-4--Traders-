@@ -1,0 +1,16 @@
+.head{
+	background-color: #1e1e1e;
+	color: #fff;
+}
+
+.logo{
+	padding: 5px;
+}
+
+.lgbtn{
+	margin-top: 20px;
+	padding: 5px;
+}
+.lgbtn h4 {
+    cursor: pointer;
+}
